@@ -510,7 +510,7 @@ cmake --build --preset release --target install
 you should:</p>
 <ol class="arabic simple">
 <li><p>Use the <em>CMakeLists.txt</em> from the top-level directory.</p></li>
-<li><p>Run Conan with <a href="#id4"><span class="problematic" id="id5">`CONAN_RUN_TESTS`_</span></a> = <code class="docutils literal notranslate"><span class="pre">True</span></code>
+<li><p>Run Conan with <a class="reference internal" href="#build-all">build_all</a> = <code class="docutils literal notranslate"><span class="pre">True</span></code>
 (use <code class="docutils literal notranslate"><span class="pre">-o</span> <span class="pre">build_docs=False</span></code> if you want to skip the documentation generation).</p></li>
 </ol>
 <div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>git clone https://github.com/mpusz/units.git <span class="o">&amp;&amp;</span> <span class="nb">cd</span> units
@@ -534,7 +534,7 @@ cmake --build --preset release --target <span class="nb">test</span>
 <ol class="arabic simple">
 <li><p>Use the <em>CMakeLists.txt</em> from the top-level directory.</p></li>
 <li><p>Obtain Python dependencies.</p></li>
-<li><p>Run Conan with <a href="#id6"><span class="problematic" id="id7">`CONAN_RUN_TESTS`_</span></a> = <code class="docutils literal notranslate"><span class="pre">True</span></code>.</p></li>
+<li><p>Run Conan with <a class="reference internal" href="#build-all">build_all</a> = <code class="docutils literal notranslate"><span class="pre">True</span></code>.</p></li>
 </ol>
 <div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>git clone https://github.com/mpusz/units.git <span class="o">&amp;&amp;</span> <span class="nb">cd</span> units
 pip3 install -r docs/requirements.txt
