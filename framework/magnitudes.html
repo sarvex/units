@@ -66,6 +66,7 @@
 <li class="toctree-l2"><a class="reference internal" href="arithmetics.html">Arithmetics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="constants.html">Quantity Constants</a></li>
 <li class="toctree-l2"><a class="reference internal" href="conversions_and_casting.html">Conversions and Casting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="angular_units.html">Angular Units</a></li>
 <li class="toctree-l2"><a class="reference internal" href="text_output.html">Text Output</a></li>
 </ul>
 </li>
@@ -211,7 +212,7 @@ type, we require <code class="docutils literal notranslate"><span class="pre">is
 <h2>How to use Magnitudes<a class="headerlink" href="#how-to-use-magnitudes" title="Permalink to this heading"></a></h2>
 <ul class="simple">
 <li><p>First, start with your basic inputs: this will typically be <code class="docutils literal notranslate"><span class="pre">mag&lt;N&gt;()</span></code> for any integer <code class="docutils literal notranslate"><span class="pre">N</span></code>, or
-the built-in Magnitude constant <code class="docutils literal notranslate"><span class="pre">pi</span></code>.  (Again, these are all <em>values</em>, not types.)</p></li>
+the built-in Magnitude constant <code class="docutils literal notranslate"><span class="pre">mag_pi</span></code>.  (Again, these are all <em>values</em>, not types.)</p></li>
 <li><p>Next, combine and manipulate these using the various “Magnitude math” operations, all of which are
 <strong>exact</strong>: <code class="docutils literal notranslate"><span class="pre">*</span></code>, <code class="docutils literal notranslate"><span class="pre">/</span></code>, <code class="docutils literal notranslate"><span class="pre">pow&lt;N&gt;</span></code>, <code class="docutils literal notranslate"><span class="pre">root&lt;N&gt;</span></code>, <code class="docutils literal notranslate"><span class="pre">numerator()</span></code>, <code class="docutils literal notranslate"><span class="pre">denominator()</span></code>.</p></li>
 <li><p>If you need to translate a Magnitude <code class="docutils literal notranslate"><span class="pre">m</span></code> to a “real” numeric type <code class="docutils literal notranslate"><span class="pre">T</span></code>, call
