@@ -101,7 +101,7 @@ class MPUnitsConan(ConanFile):
         content = load(self, os.path.join(self.recipe_folder, "src/CMakeLists.txt"))
         version = re.search(
             r"project\([^\)]+VERSION (\d+\.\d+\.\d+)[^\)]*\)", content
-        ).group(1)
+        )[1]
         self.version = version.strip()
 
     def requirements(self):

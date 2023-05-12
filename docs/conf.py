@@ -13,7 +13,7 @@ def get_version():
             content = file.read()
         version = re.search(
             r"project\([^\)]+VERSION (\d+\.\d+\.\d+)[^\)]*\)", content
-        ).group(1)
+        )[1]
         return version.strip()
     except Exception:
         return None
